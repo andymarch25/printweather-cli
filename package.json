@@ -1,0 +1,26 @@
+{
+  "name": "printweather-cli",
+  "version": "1.0.0",
+  "description": "CLI to print weather using OpenWeather API",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Novikov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andymarch25/printweather-cli.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent": "^0.7.0",
+    "yargs": "^17.3.0"
+  }
+}
